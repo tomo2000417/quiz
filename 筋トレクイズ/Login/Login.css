@@ -1,0 +1,26 @@
+header {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 70px;
+    background-color: #b0a7ff;
+    border: 3px solid rgb(69, 69, 255);
+}
+
+
+.mein{
+    text-align: center;
+    margin-top: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
+button{
+    font-size: 26px;
+    width: 100px;
+    margin-top: 1em;
+}
+input{
+    width: 200px;
+    height: 20px;
+}

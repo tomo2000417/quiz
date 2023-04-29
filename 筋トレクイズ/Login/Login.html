@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="Login.css">
+
+ 
+
+</head>
+<body>
+    <script> 
+        alert("？？？[秘密の部屋に入るためのIDを与えようID:(muscle) passwordは自力でみつけな！]")
+      </script>
+    <header>問題集の答えを打ち込んでください</header>
+    <div class="mein">
+        <form method="post" action="idパスワード入力" name="login_form" 
+         onsubmit="return Check()">
+         
+                <h1 class="conracr-title">入室管理ページ</h1>
+                <p>ID,Passwordをご入力の上、[入室]ボタンをクリックしてください。</p> 
+                <p>ヒント、ちいさい順</p>    
+            <div>
+
+               
+                    <div>
+                        <input type="id" name="id" placeholder="ID" id="id">
+                    </div>
+                    <div>
+                        <input type="password" name="pass" placeholder="password" id="pass" onchange="nextPage()">
+                    </div>
+              
+
+            </div>
+            <button type="button"  id="ok" onclick="nextPage();">入室</button>
+        </form>
+        
+    </div>
+
+    <script src="Login.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(255, 255, 255);
+    font-family:'游ゴシック体', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   
+}
+h1,h2,h3{
+    font-family: '游ゴシック体', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    border-bottom: 1px solid #656769; 
+}
+
+div#section-correct-answer{
+    display: none;
+}
+
+ul li,ol li{
+     padding: 1em;
+     list-style-position: inside;
+}
+
+#mein{
+    padding:0 1.5em;
+}
+
+.section{
+    margin-top: 1em;
+}
+
+ol.answers{
+    list-style: upper-alpha;
+}
+
+ol.answers li:hover{
+    border: 0.1em solid rgb(0, 0, 0);
+    background-color: rgb(229, 229, 255);
+    padding: 0.92em;
+    cursor: pointer;
+}
+
+span#correct-answer{
+    font-weight: bold;
+}
+ul.Quiz li{
+    color: #2d8fdd;
+    border-left: solid 6px #2d8fdd;
+    background: #f1f8ff;
+    margin-bottom: 5px;
+    line-height: 1.5;
+    width: 200px;
+    padding: 1em;
+    list-style-type: none!important;
+}
+
+ol.answers li{
+    background: #668ad8;
+    box-shadow: 0px 0px 0px 10px #668ad8;/*線の外側*/
+    border: dashed 2px #ffffff;/*破線*/
+    border-radius: 9px;
+    margin-left: 10px;/*はみ出ないように調整*/
+    margin-right: 10px;/*はみ出ないように調整*/
+    margin-bottom: 35px;
+    height: 30px;
+    width: 800px;
+    text-align: left;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0.5em 0.5em 0.5em 2em;
+}
+
+.move{
+        display: inline-block;  
+        padding: 0.5em 1em;
+        text-decoration: none;
+        background: #668ad8;
+        border-bottom: solid 4px #627295;
+        border-radius: 3px;
+      
+
+}
+
+.move:active {   
+    -webkit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
+
+.borderless{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
